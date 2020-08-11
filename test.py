@@ -1,0 +1,6 @@
+print("hello")
+print('whats your name')
+myName = input()
+print('hello'+ myName)
+myAge = input('enter age')
+print('you will be'+ myAge+'years')
