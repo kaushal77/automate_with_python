@@ -1,7 +1,8 @@
 def eggs(x):
-    x.append(4)
-    
+    x = [z**2 for z in x]
+    return x
+
 val = [1,2,3]
-eggs(val)
-print(val)
+s = eggs(val)
+print(val,s)
 
